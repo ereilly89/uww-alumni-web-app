@@ -117,7 +117,7 @@ public class main extends HttpServlet {
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
-		
+		int count=0;
 		while(rs.next()) {
 			numGraduates = rs.getInt(1);
 			employerName = rs.getString(2);
@@ -125,10 +125,38 @@ public class main extends HttpServlet {
 			state = rs.getString(4);
 			concatData = numGraduates+","+employerName+","+city+","+state;
 			theData.add(concatData);
+			System.out.println(theData.get(count++));
 		}
 		
 		return theData;
 	}
+	
+	public ArrayList<String> getAlumniAll_JS() throws SQLException{
+		
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getAlumniAll()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		String name;
+		String type;
+		String DegrConfDate;
+		String honors;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		
+		while(rs.next()) {
+			name = rs.getString(1);
+			type = rs.getString(2);
+			DegrConfDate = rs.getString(3);
+			honors = rs.getString(4);
+			concatData = name+","+type+","+DegrConfDate+","+honors;
+			theData.add(concatData);
+		}
+		
+		return theData;
+	}
+	
 	
 	public ArrayList<String> getTopTenEmployers_JS() throws SQLException{
 		
@@ -573,6 +601,24 @@ public class main extends HttpServlet {
 	}
 	//End of Degree To Do's
 	//********************************************END**OF**STORED**PROCEDURES*************************************************************************************************//
+	
+	public ArrayList<String> formatList(ArrayList<String> theList) {
+		String[] lineToPrint;
+		String newLine = "";
+		ArrayList<String> newList = new ArrayList<String>();
+		
+		for(int i=0;i<theList.size();i++) {
+			lineToPrint = theList.get(i).split(",");
+			for(int j=0;j<lineToPrint.length;j++) {
+				newLine += lineToPrint[j]+"\t";
+			}
+			newList.add("<li>" + newLine + "</li>");
+			newLine = "";
+		}
+		return newList;
+	}
+	
+	
 	
     /**
      * @see HttpServlet#HttpServlet()

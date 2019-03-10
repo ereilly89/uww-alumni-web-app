@@ -3,11 +3,11 @@
 
   <head>
    <%@ page import = "dbconnection.main" %>
-   <title>UWW CS Alumni - Home</title>
+   <title>UWW CS Alumni - Antology</title>
    <link rel="stylesheet" href="css/css1.css" />
    <meta charset="utf-8">
-   <meta name="description" content="A web application for the visualization of University of Wisconsin - Whitewater's Computer Science Alumni.">
-   <meta name="keywords" content="alumni, uww, cs">
+   <meta name="description" content="Job Position Antology of Our Alumni.">
+   <meta name="keywords" content="alumni, uww, cs, antology">
    <link id="icon" href="images/web.ico"> 
    
   </head>
@@ -19,16 +19,16 @@
    <img id="headerImage">
    
 	<div class="topnav">
-	<a class="active" href="index.jsp">Home</a>
+	<a href="index.jsp">Home</a>
 	<a href="alumni.jsp">Alumni</a>
 	<a href="employers.jsp">Employers</a>
-	<a href="antology.jsp"> Antology</a>
+	<a class="active" href="antology.jsp"> Antology</a>
 	</div>
 			
 	<div class="boxed">
-		<h1>CS Alumni App - Home</h1>
+		<h1>CS Alumni App - Job Antology</h1>
 		<p>
-			<%="Welcome to the University of Wisconsin-Whitewater's Computer Science Alumni Application!"%>
+			<%="Welcome to the antology page, where you can view job positions that our graduates hold and how they relate to one another."%>
 			
 		</p>
 	</div>
