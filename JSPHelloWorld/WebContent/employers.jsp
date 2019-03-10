@@ -3,9 +3,9 @@
 
   <head>
    <%@ page import = "dbconnection.main" %>
-   <%@ page import = "java.util.*" %>
+   <%@ page import = "java.util.*"%>
    <title>UWW CS Alumni - Employers</title>
-   <link rel="stylesheet" href="css/css1.css" />
+   <link rel="stylesheet" href="../css/css1.css">
    <meta charset="utf-8">
    <meta name="description" content="Employer information from University of Wisconsin - Whitewater computer science graduates.">
    <meta name="keywords" content="alumni, uww, cs, employers">

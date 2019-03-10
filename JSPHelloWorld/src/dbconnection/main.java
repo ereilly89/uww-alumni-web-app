@@ -604,17 +604,22 @@ public class main extends HttpServlet {
 	
 	public ArrayList<String> formatList(ArrayList<String> theList) {
 		String[] lineToPrint;
-		String newLine = "";
+		//String newLine = "";
 		ArrayList<String> newList = new ArrayList<String>();
 		
+		newList.add("<table style=\"width:100%\">");
+		
 		for(int i=0;i<theList.size();i++) {
+			newList.add("<tr>");
 			lineToPrint = theList.get(i).split(",");
 			for(int j=0;j<lineToPrint.length;j++) {
-				newLine += lineToPrint[j]+"\t";
+				newList.add("<th>"+lineToPrint[j]+"</th>");
 			}
-			newList.add("<li>" + newLine + "</li>");
-			newLine = "";
+			newList.add("</tr>");
+			//newList.add("<li>" + newLine + "</li>");
+			//newLine = "";
 		}
+		newList.add("</table>");
 		return newList;
 	}
 	

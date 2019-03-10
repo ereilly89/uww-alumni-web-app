@@ -4,7 +4,7 @@
   <head>
    <%@ page import = "dbconnection.main" %>
    <title>UWW CS Alumni - Antology</title>
-   <link rel="stylesheet" href="css/css1.css" />
+   <link rel="stylesheet" href="../css/css1.css">
    <meta charset="utf-8">
    <meta name="description" content="Job Position Antology of Our Alumni.">
    <meta name="keywords" content="alumni, uww, cs, antology">

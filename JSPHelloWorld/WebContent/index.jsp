@@ -4,7 +4,7 @@
   <head>
    <%@ page import = "dbconnection.main" %>
    <title>UWW CS Alumni - Home</title>
-   <link rel="stylesheet" href="css/css1.css" />
+   <link rel="stylesheet" href="../css/css1.css">
    <meta charset="utf-8">
    <meta name="description" content="A web application for the visualization of University of Wisconsin - Whitewater's Computer Science Alumni.">
    <meta name="keywords" content="alumni, uww, cs">
@@ -32,6 +32,7 @@
 			
 		</p>
 	</div>
+	<img src="willy.png">
 	
   </body>
   
