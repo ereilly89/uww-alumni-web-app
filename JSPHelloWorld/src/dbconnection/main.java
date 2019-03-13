@@ -117,6 +117,8 @@ public class main extends HttpServlet {
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
+		theData.add("Graduates,Employer,City,State");
+		
 		int count=0;
 		while(rs.next()) {
 			numGraduates = rs.getInt(1);
@@ -144,6 +146,7 @@ public class main extends HttpServlet {
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
+		theData.add("Full Name,Degree Type,Graduation Date,Honors");
 		
 		while(rs.next()) {
 			name = rs.getString(1);
@@ -251,8 +254,8 @@ public class main extends HttpServlet {
 		String employerName;
 		String city;
 		String state;
-		String startYear;
-		String endYear;
+		int startYear;
+		int endYear;
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
@@ -263,14 +266,55 @@ public class main extends HttpServlet {
 			employerName = rs.getString(3);
 			city = rs.getString(4);
 			state = rs.getString(5);
-			startYear = rs.getString(6);
-			endYear = rs.getString(6);
+			startYear = rs.getInt(6);
+			endYear = rs.getInt(6);
 			concatData = name+","+position+","+employerName+","+city+","+state+","+startYear+","+endYear;
 			theData.add(concatData);
 		}
 		
 		return theData;
 	}
+	
+	public ArrayList<String> getAlumniDescription_JS() throws SQLException{
+		
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getAlumniDescription()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		String name;
+		String position;
+		String employerName;
+		String city;
+		String state;
+		int startYear;
+		int endYear;
+		String type;
+		String honors;
+		String DegrConfDate;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		
+		theData.add("Name,Position,Employer, City, State, Start Year, End Year, Degree Type, Honors, Graduation");
+		
+		while(rs.next()) {
+			name = rs.getString(1);
+			position = rs.getString(2);
+			employerName = rs.getString(3);
+			city = rs.getString(4);
+			state = rs.getString(5);
+			startYear = rs.getInt(6);
+			endYear = rs.getInt(7);
+			type = rs.getString(8);
+			honors = rs.getString(9);
+			DegrConfDate = rs.getString(10);
+			concatData = name+","+position+","+employerName+","+city+","+state+","+startYear+","+endYear+","+type+","+honors+","+DegrConfDate;
+			theData.add(concatData);
+		}
+		
+		return theData;
+	}
+	
 	
 	//********************************************STORED**PROCEDURES*********************************************************************************************************//
 	
@@ -602,22 +646,27 @@ public class main extends HttpServlet {
 	//End of Degree To Do's
 	//********************************************END**OF**STORED**PROCEDURES*************************************************************************************************//
 	
-	public ArrayList<String> formatList(ArrayList<String> theList) {
+	public ArrayList<String> formatList(ArrayList<String> theList, int width) {
 		String[] lineToPrint;
-		//String newLine = "";
 		ArrayList<String> newList = new ArrayList<String>();
 		
-		newList.add("<table style=\"width:100%\">");
+		newList.add("<table id=\"customers\" align=\"center\" style=\"width:"+width+"%\">");
 		
 		for(int i=0;i<theList.size();i++) {
 			newList.add("<tr>");
-			lineToPrint = theList.get(i).split(",");
-			for(int j=0;j<lineToPrint.length;j++) {
-				newList.add("<th>"+lineToPrint[j]+"</th>");
+			
+			if(i==0) {
+				lineToPrint = theList.get(i).split(",");
+				for(int j=0;j<lineToPrint.length;j++) {
+					newList.add("<th>"+lineToPrint[j]+"</th>");
+				}
+			}else {
+				lineToPrint = theList.get(i).split(",");
+				for(int j=0;j<lineToPrint.length;j++) {
+					newList.add("<td>"+lineToPrint[j]+"</td>");
+				}
 			}
 			newList.add("</tr>");
-			//newList.add("<li>" + newLine + "</li>");
-			//newLine = "";
 		}
 		newList.add("</table>");
 		return newList;

@@ -6,12 +6,12 @@
    <title>UWW CS Alumni - Antology</title>
    <link rel="stylesheet" href="../css/css1.css">
    <meta charset="utf-8">
-   <meta name="description" content="Job Position Antology of Our Alumni.">
-   <meta name="keywords" content="alumni, uww, cs, antology">
+   <meta name="description" content="Word cloud visualization of University of Wisconsin Whitewater's alumni employment">
+   <meta name="keywords" content="alumni, uww, cs, worldcloud">
    <link id="icon" href="images/web.ico"> 
    <style>
    
-   ul {
+  	ul {
   		list-style-type: none;
  		margin: 16px;
  		padding: 0;
@@ -38,8 +38,8 @@
   		float: left;
   		display: inline-block;
 	}
-
-   li a {
+	
+    li a {
   		display: block;
  		color: white;
  		text-align: center;
@@ -57,22 +57,21 @@
   
   	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  
-  	 <img id="headerImage">
+   	<img id="headerImage">
    	<h1 align="center">CS Alumni App</h1>
    	
 	<ul>
   		<li><a href="index.jsp">Home</a></li>
   		<li><a href="alumni.jsp">Alumni</a></li>
   		<li><a href="employers.jsp">Employers</a></li>
-  		<li><a class="active" href="antology.jsp">Antology</a></li>
-  		<li><a href="wordcloud.jsp">Word Cloud</a></li>
+  		<li><a href="antology.jsp">Antology</a></li>
+  		<li><a class="active" href="wordcloud.jsp">Word Cloud</a></li>
   		<li><input type="text" placeholder="Search.."></li>
 	</ul>
-	<br><br><br>
+	<br><br><br>	
 	<div align="center" class="boxed">
 		<p>
-			<%="Welcome to the antology page, where you can view job positions that our graduates hold and how they relate to one another."%>
-			
+			Welcome to the word cloud page, where you can view some visualizations of employment data of our alumni!
 		</p>
 	</div>
 	
