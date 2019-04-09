@@ -24,6 +24,7 @@
   		left: 50%;
  		transform: translate(-50%, -50%);
  		white-space: nowrap;
+ 		border-radius: 12px;
 	}
 
 	ul input[type=text] {
@@ -95,7 +96,7 @@
   		<li><a href="index.jsp">Home</a></li>
   		<li><a class="active" href="alumni.jsp">Alumni</a></li>
   		<li><a href="employers.jsp">Employers</a></li>
-  		<li><a href="antology.jsp">Antology</a></li>
+  		<li><a href="antology.jsp">Ontology</a></li>
   		<li><a href="wordcloud.jsp">Word Cloud</a></li>
   		<li><input type="text" placeholder="Search.."></li>
 	</ul>
@@ -111,7 +112,7 @@
 				for(String emps : formatAlumni){
 					out.println(emps);
 				}
-				out.println("</font");
+				out.println("</font>");
 			%><br><br>
 		
 	</div>

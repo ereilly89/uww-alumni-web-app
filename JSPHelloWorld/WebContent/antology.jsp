@@ -22,6 +22,7 @@
   		left: 50%;
  		transform: translate(-50%, -50%);
  		white-space: nowrap;
+ 		border-radius: 12px;
 	}
 
 	ul input[type=text] {
