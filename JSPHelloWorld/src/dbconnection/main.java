@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 import javax.servlet.ServletException;
@@ -27,6 +28,7 @@ public class main extends HttpServlet {
 	static final String databaseURL = "jdbc:mysql://" + hostName + "/" + databasePrefix+ "?autoReconnect=true&useSSL=false&useInformationSchema=true"; //noAccessToProcedureBodies=true";
 	static final String password = "alumni2019"; // password
 	private static Connection connection = null;
+	DecimalFormat ft = new DecimalFormat("#.#");
 	
 	//Connection to Database
 	public void Connection(){
@@ -104,6 +106,113 @@ public class main extends HttpServlet {
 	
 	//********************************************Methods for sending to JavaScript*****************************************************************************************//
 	
+	public ArrayList<String> getCareerOutcomes() throws SQLException{
+		
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getCareerOutcomes()}");
+		
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		ArrayList<String> theData = new ArrayList<String>();
+		
+		while(rs.next()) {
+			
+			//For Employment Calculation
+			int numEmployed = rs.getInt(1);
+			int totalLaborForce = rs.getInt(2);
+			int seeking = totalLaborForce-numEmployed;
+			
+			// For Continuing Education Calculation
+			int numContEdu = rs.getInt(3);
+			int totalGraduates = rs.getInt(4);
+			
+			theData.add("Employed,"+ft.format(numEmployed*100/(totalLaborForce*1.0)));
+			theData.add("Continuing Education,"+ft.format(numContEdu*100/(totalGraduates*1.0)));
+			theData.add("Seeking Employment/Education,"+ft.format(seeking*100/(totalGraduates*1.0)));
+			
+		}
+		
+		return theData;
+	}
+	
+	public ArrayList<String> getTopEmployers() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getTopEmployers()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		int numGraduates;
+		String employerName;
+		String city;
+		String state;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		theData.add("Graduates,Employer,City,State");
+		
+		int count=0;
+		while(rs.next()) {
+			numGraduates = rs.getInt(1);
+			employerName = rs.getString(2);
+			city = rs.getString(3);
+			state = rs.getString(4);
+			concatData = numGraduates+","+employerName+","+city+","+state;
+			theData.add(concatData);
+			System.out.println(theData.get(count++));
+		}
+		return theData;
+	}
+	
+	public ArrayList<String> getTopGradSchools() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getTopGradSchools()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		int numGraduates;
+		String schoolName;
+		String city;
+		String state;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		theData.add("Students,School,City,State");
+		
+		int count=0;
+		while(rs.next()) {
+			numGraduates = rs.getInt(1);
+			schoolName = rs.getString(2);
+			city = rs.getString(3);
+			state = rs.getString(4);
+			concatData = numGraduates+","+schoolName+","+city+","+state;
+			theData.add(concatData);
+			System.out.println(theData.get(count++));
+		}
+		return theData;
+	}
+	
+	public ArrayList<String> getPositions() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getPositions()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		String position;
+		String frequency;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		System.out.println("TEST.");
+		int count=0;
+		while(rs.next()) {
+			System.out.println("BEFORE");
+			position = rs.getString(1);
+			System.out.println("AFTER");
+			frequency = rs.getString(2);
+			concatData = position+","+frequency;
+			theData.add(concatData);
+			System.out.println(theData.get(count++));
+		}
+		return theData;
+	}
+	
+	//********************************************************************************************///////////////////////////////////////////////////////////////////////
 	public ArrayList<String> getEmployersAll_JS() throws SQLException{
 		
 		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getEmployersAll()}");
@@ -156,7 +265,6 @@ public class main extends HttpServlet {
 			concatData = name+","+type+","+DegrConfDate+","+honors;
 			theData.add(concatData);
 		}
-		
 		return theData;
 	}
 	
@@ -466,27 +574,6 @@ public class main extends HttpServlet {
 			state = rs.getString(5);
 			
 			System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state);
-		}
-		
-		return rs;
-	}
-	
-	public ResultSet getTopGradSchools() throws SQLException { //RETURNS--> #Graduates		EmployerName	City
-		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getTopGradSchools()}");
-		myCallStmt.execute();
-		ResultSet rs = myCallStmt.getResultSet();
-
-		int numGraduates;
-		String employerName;
-		String city;
-		
-		System.out.println("#Graduates\tEmployerName\tCity");
-		while(rs.next()) {
-			numGraduates = rs.getInt(1);
-			employerName = rs.getString(2);
-			city = rs.getString(3);
-			
-			System.out.println(numGraduates+"\t"+employerName+"\t"+city);
 		}
 		
 		return rs;

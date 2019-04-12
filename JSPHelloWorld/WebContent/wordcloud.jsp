@@ -3,7 +3,7 @@
 
   <head>
    <%@ page import = "dbconnection.main" %>
-   <title>UWW CS Alumni - Antology</title>
+   <title>UWW CS Alumni - Ontology</title>
    <link rel="stylesheet" href="../css/css1.css">
    <meta charset="utf-8">
    <meta name="description" content="Word cloud visualization of University of Wisconsin Whitewater's alumni employment">
@@ -65,7 +65,7 @@
   		<li><a href="index.jsp">Home</a></li>
   		<li><a href="alumni.jsp">Alumni</a></li>
   		<li><a href="employers.jsp">Employers</a></li>
-  		<li><a href="antology.jsp">Antology</a></li>
+  		<li><a href="antology.jsp">Ontology</a></li>
   		<li><a class="active" href="wordcloud.jsp">Word Cloud</a></li>
   		<li><input type="text" placeholder="Search.."></li>
 	</ul>
