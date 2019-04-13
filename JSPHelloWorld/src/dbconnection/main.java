@@ -161,6 +161,29 @@ public class main extends HttpServlet {
 		return theData;
 	}
 	
+	public ArrayList<String> getEmployerLocations() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getEmployerLocations()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		String city;
+		String state;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		theData.add("City,State");
+		
+		int count=0;
+		while(rs.next()) {
+			city = rs.getString(1);
+			state = rs.getString(2);
+			concatData = city+","+state;
+			theData.add(concatData);
+			System.out.println(theData.get(count++));
+		}
+		return theData;
+	}
+	
 	public ArrayList<String> getTopGradSchools() throws SQLException {
 		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getTopGradSchools()}");
 		myCallStmt.execute();
@@ -198,14 +221,13 @@ public class main extends HttpServlet {
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
-		System.out.println("TEST.");
+		theData.add("# Alumni, Job Position");
+		
 		int count=0;
 		while(rs.next()) {
-			System.out.println("BEFORE");
-			position = rs.getString(1);
-			System.out.println("AFTER");
-			frequency = rs.getString(2);
-			concatData = position+","+frequency;
+			frequency = rs.getString(1);
+			position = rs.getString(2);
+			concatData = frequency+","+position;
 			theData.add(concatData);
 			System.out.println(theData.get(count++));
 		}

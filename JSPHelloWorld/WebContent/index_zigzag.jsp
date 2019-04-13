@@ -254,17 +254,6 @@ img {
 			out.println(employers);
 		}
 		out.println("</font>");
-      
-		ArrayList<String> positions = newMain3.getPositions();
-		ArrayList<String> formatPositions= newMain3.formatList(positions, 75);
-		
-		out.println("<font size=\"2\">");
-		for(String employers : formatPositions){
-			out.println(employers);
-		}
-		
-		
-		
 		
       %>
       
@@ -283,7 +272,7 @@ img {
       	main newMain1 = new main();
 		newMain1.Connection();
 		ArrayList<String> topEmployers = newMain1.getTopEmployers();
-		ArrayList<String> formatTopEmployers = newMain1.formatList(topEmployers, 75);
+		ArrayList<String> formatTopEmployers = newMain1.formatList(topEmployers, 50);
 		
 		out.println("<font size=\"2\">");
 		for(String employers : formatTopEmployers){
@@ -291,6 +280,15 @@ img {
 		}
 		out.println("</font>");
       
+		ArrayList<String> topPositions = newMain1.getPositions();
+		ArrayList<String> formatTopPositions = newMain1.formatList(topPositions, 50);
+		
+		out.println("<font size=\"2\">");
+		for(String employers : formatTopPositions){
+			out.println(employers);
+		}
+		out.println("</font>");
+		
       %>
     </div>
     <div class="right-half">
