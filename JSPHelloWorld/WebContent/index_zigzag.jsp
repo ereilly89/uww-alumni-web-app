@@ -14,7 +14,7 @@
 <%-- --------------------------------- Header -------------------------------------------------- --%>
 .header {
   overflow: hidden;
-  background-color: #502D7F;
+  background-color: #502D7F;//#502D7F
   /*padding: 20px 10px;*/
 }
 
@@ -46,7 +46,7 @@
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #bc75ab;//dodgerblue
   color: white;
 }
 
@@ -182,7 +182,7 @@ img {
     	<a class="active" href="index_zigzag.jsp">Home</a>
     	<a href="alumni.jsp">Alumni</a>
     	<a href="employers.jsp">Employers</a>
-    	<a href="antology.jsp">Antology</a>
+    	<a href="antology.jsp">Ontology</a>
     	<a href="wordcloud.jsp">Word Cloud</a>
   		</div>
 	</div>
@@ -254,6 +254,7 @@ img {
 			out.println(employers);
 		}
 		out.println("</font>");
+		
 		
       %>
       

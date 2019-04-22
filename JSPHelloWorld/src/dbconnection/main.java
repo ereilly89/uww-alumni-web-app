@@ -211,6 +211,29 @@ public class main extends HttpServlet {
 		return theData;
 	}
 	
+	public ArrayList<String> getTopGradSchoolLocations() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getTopGradSchoolLocations()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		String city;
+		String state;
+		String concatData;
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		theData.add("City, State");
+		
+		int count=0;
+		while(rs.next()) {
+			city = rs.getString(1);
+			state = rs.getString(2);
+			concatData = city+","+state;
+			theData.add(concatData);
+			System.out.println(theData.get(count++));
+		}
+		return theData;
+	}
+	
 	public ArrayList<String> getPositions() throws SQLException {
 		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getPositions()}");
 		myCallStmt.execute();
