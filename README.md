@@ -1,7 +1,7 @@
 # JSPwithDatabase
 
-The main content is in "WebContent/index_zigzag.jsp"
-
+This app was built with JSP (Java Server Pages) using Apache Tomcat v9.0 with MySQL database.
+This was a team effort with help from Anthony Meyer, Casey Thimm, and Tanner Lory. 
 
 ![webpage_full](https://user-images.githubusercontent.com/39227780/63535690-aebac800-c4d7-11e9-91bd-d7ec6b2d7677.png)
 
