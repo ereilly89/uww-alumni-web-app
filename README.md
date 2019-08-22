@@ -1,2 +1,3 @@
 # JSPwithDatabase
-The page to be run is "WebContent/index_zigzag.jsp"
+
+The main content is in "WebContent/index_zigzag.jsp"
