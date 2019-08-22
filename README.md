@@ -7,10 +7,15 @@ The main content is in "WebContent/index_zigzag.jsp"
 
 Database Schema
 ----------------
-Alumni(alumniID(primary key), first_name, last_name, email, phone, linkedIn, grad_student(boolean), employed(boolean)
+Alumni(alumniID(primary key), first_name, last_name, email, phone, linkedIn, grad_student(boolean), employed(boolean))
+
 Degree(degreeID(primary key), type, major, minor, honors, graduation, alumniID(foreign key))
+
 Employee(employeeID(primary key), position, starting_salary, start_year, end_year, employerID(foreign key))
+
 Employer(employerID(primary key), employer, city, state, feedback)
+
 School(schoolID(primary key), school, city, state)
+
 Student(studentID(primary key), degree_desired, schoolID(foreign key))
 
