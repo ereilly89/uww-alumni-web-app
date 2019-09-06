@@ -120,7 +120,7 @@ body {
 .container2 {
   padding: 0px;
   background-color: #393939;
-  height:70%;/*get rid of if google maps doesnt work*/
+  height:80%;/*get rid of if google maps doesnt work, was 70%*/
 }
 
 .row:after {
@@ -147,6 +147,7 @@ body {
   border-style:solid;
   border-color: #330066;
   padding-left: 64px;
+  padding-bottom: 64px;//
 }
 
 .right-half {
