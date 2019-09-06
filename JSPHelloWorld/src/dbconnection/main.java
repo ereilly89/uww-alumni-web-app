@@ -1,12 +1,13 @@
 package dbconnection;
 
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.*;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -171,7 +172,7 @@ public class main extends HttpServlet {
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
-		theData.add("City,State");
+		//theData.add("City,State");
 		
 		int count=0;
 		while(rs.next()) {
@@ -216,12 +217,12 @@ public class main extends HttpServlet {
 		myCallStmt.execute();
 		ResultSet rs = myCallStmt.getResultSet();
 		
-		String city;
+		String city; 
 		String state;
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
-		theData.add("City, State");
+		//theData.add("City, State");
 		
 		int count=0;
 		while(rs.next()) {
@@ -229,9 +230,41 @@ public class main extends HttpServlet {
 			state = rs.getString(2);
 			concatData = city+","+state;
 			theData.add(concatData);
-			System.out.println(theData.get(count++));
+			System.out.println("GRAD SCHOOLS: "+theData.get(count++));
 		}
 		return theData;
+	}
+	
+	/*
+	public ArrayList<String> getFreshmenLocations() throws FileNotFoundException {
+		
+		Scanner freshmen_location_csv = new Scanner(new File("C:\\Users\\Evan\\git\\JSPwithDatabase\\JSPHelloWorld\\freshmen_locations.csv"));
+		
+		
+		
+		ArrayList<String> theData = new ArrayList<String>();
+		while(freshmen_location_csv.hasNextLine()) {
+			String nextLine = freshmen_location_csv.nextLine();
+			theData.add(nextLine);
+		}
+		
+		return theData;
+	}
+	*/
+	
+	public int getNumAlumni() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getNumAlumni()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		
+		int count=0;
+		
+		while(rs.next()) {
+			count++;
+		}
+
+		return count;
 	}
 	
 	public ArrayList<String> getPositions() throws SQLException {
@@ -244,7 +277,6 @@ public class main extends HttpServlet {
 		String concatData;
 		
 		ArrayList<String> theData = new ArrayList<String>();
-		theData.add("# Alumni, Job Position");
 		
 		int count=0;
 		while(rs.next()) {
@@ -257,6 +289,82 @@ public class main extends HttpServlet {
 		return theData;
 	}
 	
+	public int getAvgSalary() throws SQLException {
+		CallableStatement myCallStmt = (CallableStatement) connection.prepareCall("{call getAvgSalary()}");
+		myCallStmt.execute();
+		ResultSet rs = myCallStmt.getResultSet();
+		
+		int salary=0;
+		int averageSalary;
+		int count=0;
+		
+		while(rs.next()) {
+			salary += rs.getInt(1);
+			System.out.println("Added Salary: "+salary);
+			count++;
+		}
+		averageSalary = salary/count;
+		return averageSalary;
+	}
+	
+	public static String toJavascriptArray(ArrayList<String> arr){
+	    StringBuffer sb = new StringBuffer();
+	    sb.append("[");
+	    for(int i=0; i<arr.size(); i++){
+	        sb.append("\"").append(arr.get(i)).append("\"");
+	        if(i+1 < arr.size()){
+	            sb.append(",");
+	        }
+	    }
+	    sb.append("]");
+	    return sb.toString();
+	}
+	
+	public static String toJavascriptArraySkills(ArrayList<String> arr){
+	    StringBuffer sb = new StringBuffer();
+	    
+	   // { text: 'Software Developer', size: 14*5 }
+	    
+	    sb.append("[");
+	    for(int i=0; i<arr.size(); i++){
+	    	
+	    	String[] theSplit = arr.get(i).split(",");
+		    String str1 = theSplit[0];
+		    String str2 = theSplit[1];
+	    	
+	    	sb.append("{ text: '").append(str2).append("', size: ").append("(").append(str1).append("+10)*2}");
+	    	System.out.println("My SB: "+sb.toString());
+	        if(i+1 < arr.size()){
+	            sb.append(",");
+	        }
+	    }
+	    
+	    sb.append("]");
+	    
+	    
+	    
+	    /*
+	    [
+	      	{ text: 'Software Developer', size: (14+10)*2 },
+	      	{ text: 'Software Engineer', size: (9+10)*2 },
+	      	{ text: 'Web Developer', size: (6+10)*2 },
+	      	{ text: 'Associate Engineer', size: (5+10)*2 },
+	      	{ text: 'Junior Software Developer', size: (3+10)*2 },
+	      	{ text: 'Teacher', size: (2+10)*2 },
+	      	{ text: 'Help desk analyst', size: (2+10)*2 },
+	      	{ text: 'Programmer Analyst', size: (2+10)*2 },
+	      	{ text: 'Senior Software Engineer', size: (2+10)*2 },
+	      	{ text: 'Software Engineer II', size: (2+10)*2 },
+	      	
+	      ]
+	      */
+	    
+	    
+	    
+	    System.out.println(sb.toString());
+	    return sb.toString();
+	    
+	}
 	//********************************************************************************************///////////////////////////////////////////////////////////////////////
 	public ArrayList<String> getEmployersAll_JS() throws SQLException{
 		
