@@ -41,56 +41,6 @@ public class main extends HttpServlet {
 			connection = DriverManager.getConnection(databaseURL, netID, password);
 			System.out.println("Successfully connected to the database.");
 			
-			//Call some test stored procedures now that the database has connected.************//
-			
-			//Employer
-			/*
-			
-			System.out.println("****getEmployersAll()*************************************************************");
-			getEmployersAll();
-			
-			int year=2018;
-			System.out.println("****getEmployersHiring("+year+")**************************************************");
-			getEmployersHiring(year);
-			
-			System.out.println("****getTop10EmployersCount()******************************************************");
-			getTop10EmployersCount();
-			
-			System.out.println("****getTop10EmployersPercentage()*************************************************");
-			//getTop10EmployersPercentage();
-			System.out.println("(NOT WORKING");
-			
-			System.out.println("****getEmployersWisconsin()*******************************************************");
-			getEmployersWisconsin();
-			
-			System.out.println("****getEmployersOutOfState()******************************************************");
-			getEmployersOutOfState();
-			
-			System.out.println("****getTopGradSchools()***********************************************************");
-			getTopGradSchools();
-			
-			
-			//Alumni
-			System.out.println("****getAlumniAll()****************************************************************");
-			getAlumniAll();
-			
-			System.out.println("****getAlumniHonors()*************************************************************");
-			getAlumniHonors();
-			
-			
-			//Employee
-			System.out.println("****getEmployeesAll()*************************************************************");
-			getEmployeesAll();
-			
-			System.out.println("****getEmployeeLeaders()**********************************************************");
-			getEmployeeLeaders();
-			
-			 */
-			//Degree
-			
-			
-			//End of stored procedure tests******************************************************//
-			
 		}
 		
 		catch (ClassNotFoundException e) {
@@ -340,26 +290,6 @@ public class main extends HttpServlet {
 	    }
 	    
 	    sb.append("]");
-	    
-	    
-	    
-	    /*
-	    [
-	      	{ text: 'Software Developer', size: (14+10)*2 },
-	      	{ text: 'Software Engineer', size: (9+10)*2 },
-	      	{ text: 'Web Developer', size: (6+10)*2 },
-	      	{ text: 'Associate Engineer', size: (5+10)*2 },
-	      	{ text: 'Junior Software Developer', size: (3+10)*2 },
-	      	{ text: 'Teacher', size: (2+10)*2 },
-	      	{ text: 'Help desk analyst', size: (2+10)*2 },
-	      	{ text: 'Programmer Analyst', size: (2+10)*2 },
-	      	{ text: 'Senior Software Engineer', size: (2+10)*2 },
-	      	{ text: 'Software Engineer II', size: (2+10)*2 },
-	      	
-	      ]
-	      */
-	    
-	    
 	    
 	    //System.out.println(sb.toString());
 	    return sb.toString();

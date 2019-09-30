@@ -1,0 +1,258 @@
+﻿EmplID,First Name,Last Name,Email,Phone Number,LinkedIn Profile,Major,Degree,Honors,Graduation,Graduate Student,Graduate School,Employed,Employer,Position,Employer City,Employer State/Country,Time @ Employer,Starting Salary,Minor
+A0000001,Aaron ,Chamberlain,NA,NA,https://www.linkedin.com/in/aaron-chamberlain-94769497/,COMPTRSCI,BSE,Summa Cum Laude,2013-05-22,FALSE,,TRUE,Fort Atkinson High School,Teacher,Milton,WI,08/2013-Present,NA,NA
+A0000002,Jamie ,Gavahan,NA,NA,https://www.linkedin.com/in/jamiegavahan/,COMPTRSCI,BS,None,2013-05-22,FALSE,,TRUE,University of Wisconsin - Whitewater,Desktop Support and Workstation Management Technician ,Whitewater,WI,05/2013-Present,NA,NA
+A0000003,Gregory ,Hastings,NA,NA,NA,COMPTRSCI,BS,None,2013-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000004,Brian ,Holman,NA,NA,https://www.linkedin.com/in/brian-holman-090521a9/,COMPTRSCI,BS,None,2013-05-22,FALSE,,TRUE,PerBlue,Senior Software Engineering at PerBlue,Madison,WI,06/2018-Present,NA,NA
+A0000005,Reece ,Koenigs,NA,NA,https://www.linkedin.com/in/reece-koenigs/,COMPTRSCI,BA,None,2013-05-22,FALSE,,TRUE,CUNA Mutual Group,Business Analyst,Madison,WI,09/2017-Present,NA,NA
+A0000006,Antonio ,Fernandez-Gavito,NA,NA,https://www.linkedin.com/in/antonio-fg/,LSBSCMPSCI,BS,None,2013-05-22,FALSE,,TRUE,TESCHGlobal,VP of Deep Learning Engineering,Milwaukee,WI,01/2016-Present,NA,NA
+A0000007,Jacob ,Feder,NA,NA,NA,COMPTRSCI,BSE,None,2013-12-23,FALSE,,TRUE,"Agate Software, Inc.",Team Lead,Lansing,MI,06/2016-Present,NA,NA
+A0000008,Gregory ,Harder,NA,NA,https://www.linkedin.com/in/greg-harder-322a5916/,COMPTRSCI,BS,None,2013-12-23,FALSE,,TRUE,Touchpad Electronics,Project Manager,Milwaukee,WI,09/2008-Present,NA,NA
+A0000009,Stephanie ,Koeppel,NA,NA,NA,COMPTRSCI,BS,None,2013-12-23,FALSE,,NA,NA,NA,Madison,WI,NA,NA,NA
+A0000010,Steven ,Mickelson,NA,NA,https://www.linkedin.com/in/steven-mickelson-10220560/,COMPTRSCI,BSE,None,2013-12-23,FALSE,,TRUE,University of Wisconsin - Whitewater,Teacher,Whitewater,WI,NA,NA,NA
+A0000011,Frederick,Hall,NA,NA,https://www.linkedin.com/in/frederickalexanderhall/,SFBSCMPSCI,BS,None,2013-12-23,TRUE,University of California - Berkeley,FALSE,NA,Graduate student,Berkeley,CA,2014-present,NA,NA
+A0000012,Kia,Lor,NA,NA,https://www.linkedin.com/in/kia-lor-19842191/,LSBSCMPSCI,BS,Cum Laude,2013-12-23,FALSE,,NA,NA,NA,Stevens Point,WI,NA,NA,NA
+A0000013,James,Underwood,NA,NA,https://www.linkedin.com/in/james-underwood-b50b96111/,LSBSCMPSCI,BS,None,2013-12-23,FALSE,,TRUE,Skyline Technologies,System Administrator II,Waukesha,WI,09/2017-Present,NA,NA
+A0000014,Shane,Gabel,NA,NA,https://www.linkedin.com/in/shane-gabel-675a5377/,COMPTRSCI,BA,Magna Cum Laude,2014-05-20,FALSE,,TRUE,Coating Place Inc,Senior Application Developer,Madison,WI,07/2014-Present,NA,NA
+A0000015,Emily,Paulson,NA,NA,https://www.linkedin.com/in/emily-paulson-78217569/,COMPTRSCI,BS,None,2014-05-20,TRUE,Marquette University,FALSE,NA,Graduate student,Milwaukee,WI,2014-present,NA,NA
+A0000016,Michael,Depies,NA,NA,https://www.linkedin.com/in/michael-depies-470365ba/,LSBSCMPSCI,BS,None,2014-05-20,FALSE,,TRUE,Blackthorne Capital Management LLC,Software Developer,Whitewater,WI,06/2012-Present,NA,NA
+A0000017,Joseph,Gleeson,NA,NA,https://www.linkedin.com/in/joseph-gleeson-63353669/,LSBSCMPSCI,BS,Summa Cum Laude,2014-05-20,FALSE,,TRUE,Northwestern Mutual,Full Stack Engineer,Milwaukee,WI,04/2018-Present,NA,NA
+A0000018,Daniel,Lehr,NA,NA,NA,LSBSCMPSCI,BS,None,2014-05-20,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000019,Craig,Nelson,NA,NA,https://www.linkedin.com/in/craig-nelson-25243380/,LSBSCMPSCI,BS,None,2014-05-20,FALSE,,TRUE,Epic,Software Engineering Lead,Madison,WI,06/2014-Present,NA,NA
+A0000020,Benjamin,Pelc,NA,NA,https://www.linkedin.com/in/benjamin-pelc-084329125/,LSBSCMPSCI,BS,None,2014-05-20,FALSE,,TRUE,Skyline Technologies,Software Engineer II,Milwaukee,WI,11/2017-Present,NA,NA
+A0000021,Joshua,Porter,NA,NA,https://www.linkedin.com/in/josh-porter-6b42b362/,SFBSCMPSCI,BS,None,2014-05-20,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000022,Kevin,Buntman,NA,NA,NA,COMPTRSCI,BSE,Magna Cum Laude,2014-12-23,FALSE,,NA,NA,Math and Computer Science teacher,Greenbay,WI,NA,NA,NA
+A0000023,Jonathon,Pflanzer,NA,NA,https://www.linkedin.com/in/jonathon-pflanzer-82164b80/,COMPTRSCI,BA,None,2014-12-23,FALSE,,TRUE,ISS Solutions,Help desk analyst,Langhorne,PA,NA,NA,NA
+A0000024,Bradley,Sanwick,NA,NA,https://www.linkedin.com/in/brad-sanwick-95bb9abb/,COMPTRSCI,BA,None,2014-12-23,FALSE,,TRUE,"FatWallet, Inc.",Junior Software Developer,Beloit,WI,03/2015-Present,NA,NA
+A0000025,Thai,Yang,NA,NA,NA,COMPTRSCI,BA,None,2014-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000026,Tyler,Holmes,NA,NA,https://www.linkedin.com/in/holmestyler/,LSBSCMPSCI,BS,Magna Cum Laude,2014-12-23,FALSE,,TRUE,Quad/Graphics,Software Engineer,Sussex,WI,05/2014-Present,NA,NA
+A0000027,Nathaniel,Smith,NA,NA,https://www.linkedin.com/in/smithnathaniel13/,LSBSCMPSCI,BS,None,2014-12-23,FALSE,,TRUE,Great Lake Loan Services,Senior Security Policy Analyst,Madison,WI,NA,NA,NA
+A0000028,Matthew,Stingel,NA,NA,https://www.linkedin.com/in/mstingel/,LSBSCMPSCI,BS,None,2014-12-23,FALSE,,TRUE,Northwestern Mutual,Frontend Engineer,Milwaukee,WI,11/2016-Present,NA,NA
+A0000029,Aaron,Brown,NA,NA,NA,SDCMPSCI,BS,Cum Laude,2015-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000030,Ian,Feldschneider,NA,NA,https://www.linkedin.com/in/ian-feldschneider-632649aa/,COMPTRSCI,BA,Summa Cum Laude,2015-05-19,FALSE,,NA,NA,Game Engineer/Programmer,Jefferson,WI,NA,NA,NA
+A0000031,Brandon,Korth,NA,NA,https://www.linkedin.com/in/bkorth/,COMPTRSCI,BA,None,2015-05-19,FALSE,,TRUE,Filament Games,UX Designer,Madison,WI,01/2018-Present,NA,NA
+A0000032,Orrin,Oliver,NA,NA,https://www.linkedin.com/in/orrinoliver/,COMPTRSCI,BA,Cum Laude,2015-05-19,FALSE,,TRUE,Meeper Technology,Lead Programmer,Bangor,WI,12/2016-Present,NA,NA
+A0000033,Andrew,Wangner,NA,NA,NA,XDBACMPSCI,BALS,Summa Cum Laude,2015-05-19,FALSE,,TRUE,Blackthorne Capital Management LLC,Software Developer,Whitewater,WI,NA,NA,NA
+A0000034,Philip,Brehm,NA,NA,https://www.linkedin.com/in/philip-brehm-8a162460/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,GameZombie TV,Video Editor,Whitewater,WI,09/2012-Present,NA,NA
+A0000035,Anthony,Brent,NA,NA,https://www.linkedin.com/in/brenttony/,LSBSCMPSCI,BS,Cum Laude,2015-05-19,FALSE,,TRUE,Acuity Insurance,Programmer Analyst,Sheboygan,WI,06/2015-Present,NA,NA
+A0000036,Thure,Christianson,NA,NA,https://www.linkedin.com/in/thurechristianson/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,Wonderbox Technologies,Operational Support Technician,Milwaukee,WI,01/2016-Present,NA,NA
+A0000037,Mithchell,Elmer,NA,NA,https://www.linkedin.com/in/mitchell-elmer-454a876b/,LSBSCMPSCI,BS,Summa Cum Laude,2015-05-19,FALSE,,TRUE,Acuity Insurance,Programmer Analyst,Sheboygan,WI,07/2017-Present,NA,NA
+A0000038,David,Feldman,NA,NA,https://www.linkedin.com/in/davidfeldman22/,LSBSCMPSCI,BS,Summa Cum Laude,2015-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000039,Austin,Fies,NA,NA,https://www.linkedin.com/in/austin-fies-808a459a/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,TDS,Application System Engineer,Middleton,WI,05/2015-Present,NA,NA
+A0000040,Grant,Gunyon,NA,NA,https://www.linkedin.com/in/grant-gunyon-331189116/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000041,Dixie,Lane,NA,NA,https://www.linkedin.com/in/dixie-lane-a81601b6/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,Dedicated Computing,Production Technician,Waukesha,WI,08/2016-Present,NA,NA
+A0000042,Mark,Liederbach,NA,NA,https://www.linkedin.com/in/markliederbach/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,TDS Telecommunications Corp.,Senior Software Engineer,Madison,WI,10/2017-Present,NA,NA
+A0000043,Adam,Mccann,NA,NA,https://www.linkedin.com/in/adam-mccann-b0354889/,LSBSCMPSCI,BS,Cum Laude,2015-05-19,FALSE,,TRUE,Cash Depot,Application Analyst,Greenville,WI,06/2015-Present,NA,NA
+A0000044,Adikaramge,Perera,NA,NA,https://www.linkedin.com/in/hans-perera-6a6451a8/,LSBSCMPSCI,BS,Cum Laude,2015-05-19,FALSE,,TRUE,Cerner,Software Engineer,Kansas City,MI,2015-present,NA,NA
+A0000045,Joshua,Pomerenke,NA,NA,https://www.linkedin.com/in/pomerenke/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,NA,NA,Web Developer,Milwaukee,WI,2016-present,NA,NA
+A0000046,Scott,Rupprecht,NA,NA,https://www.linkedin.com/in/scott-rupprecht-177b2ba7/,LSBSCMPSCI,BS,Magna Cum Laude,2015-05-19,FALSE,,TRUE,Quad/Graphics,Software Developer,Fort Atkinson,WI,05/2015-Present,NA,NA
+A0000047,Jarred,Sherer,NA,NA,https://www.linkedin.com/in/jarred-sherer-13b96647/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,Lawrence University,Technical Specialist,Appleton,WI,08/2017-Present,NA,NA
+A0000048,Gabriel,Smith,NA,NA,NA,LSBSCMPSCI,BS,Summa Cum Laude,2015-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000049,Taylor,Sullivan,NA,NA,https://www.linkedin.com/in/taysulli/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,QuadMed LLC,Software Developer,Sussex,WI,12/2014-Present,NA,NA
+A0000050,Matthew,Westendore,NA,NA,NA,LSBSCMPSCI,BS,Cum Laude,2015-05-19,FALSE,,NA,NA,NA,Milwaukee,WI,NA,NA,NA
+A0000051,Daniel,Wittke,NA,NA,https://www.linkedin.com/in/daniel-wittke-67904472/,LSBSCMPSCI,BS,None,2015-05-19,FALSE,,TRUE,Express Scripts,Operations Analyst,Saint Louis,MO,02/2016-Present,NA,NA
+A0000052,Dustin,Forman,NA,NA,https://www.linkedin.com/in/dustin-forman-18a4aa95/,SDCMPSCI,BS,Magna Cum Laude,2015-12-23,FALSE,,TRUE,RegoConsulting,Rego Support Specialist,Janesville,WI,05/2015-Present,NA,NA
+A0000053,Lucas,Gittleson,NA,NA,NA,COMPTRSCI,BS,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000054,John,Kinzel,NA,NA,https://www.linkedin.com/in/john-kinzel-453695a8/,COMPTRSCI,BA,None,2015-12-23,FALSE,,TRUE,Raven Software,QA Tester,Middleton,WI,05/2017-Present,NA,NA
+A0000055,Michael,Payne,NA,NA,NA,COMPTRSCI,BA,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000056,Justin,Wainright,NA,NA,https://www.linkedin.com/in/justin-wainright-057bb5111/,COMPTRSCI,BS,None,2015-12-23,FALSE,,TRUE,Grainger,Customer Experience Representative,Janesville,WI,02/2017-Present,NA,NA
+A0000057,Lacy,Bowar,NA,NA,https://www.linkedin.com/in/lacy-bowar-70a095108/,LSBSCMPSCI,BS,Cum Laude,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000058,Kathryn,Deane,NA,NA,NA,SFBSCMPSCI,BS,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000059,Jenna,Hammes,NA,NA,https://www.linkedin.com/in/jenna-hammes-8ba08b95/,LSBSCMPSCI,BS,Cum Laude,2015-12-23,FALSE,,TRUE,"Avastone Technologies,LLC",Software Engineer,Waukesha,WI,02/2016-Present,NA,NA
+A0000060,Timothy,Henry,NA,NA,https://www.linkedin.com/in/tim-henry-747456117/,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000061,Kyle,Hooker,NA,NA,NA,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000062,Alexander,Laurent,NA,NA,https://www.linkedin.com/in/alex-laurent/,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,TRUE,JDA Software,Software Engineer,Waukesha,WI,05/2017-Present,NA,NA
+A0000063,Christian,Lee,NA,NA,https://www.linkedin.com/in/christian-lee-28863554/,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,TRUE,Midwest Prototyping,Additive Manufacturing Technician,Fort Atkinson,WI,10/2017-Present,NA,NA
+A0000064,Pablo,Martinez,NA,NA,NA,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000065,Richard,Sanchez,NA,NA,https://www.linkedin.com/in/richard-sanchez-1ab426b2/,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000066,Trevor,Wilson,NA,NA,https://www.linkedin.com/in/trevor-wilson-3441017b/,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,TRUE,Emmi Roth,Web Developer,Fitchburg,WI,04/2017-Present,NA,NA
+A0000067,Tyler,Wuenstel,NA,NA,https://www.linkedin.com/in/tyler-wuenstel-310020a8/,LSBSCMPSCI,BS,None,2015-12-23,FALSE,,TRUE,Rego Consulting,Project Support Specialist,Fort Myers,FL,06/2014-Present,NA,NA
+A0000068,Tyler,Taves,NA,NA,https://www.linkedin.com/in/tyler-taves-639801aa/,LSBSCMPSCI,BS,Cum Laude,2015-12-23,FALSE,,TRUE,QuadMed LLC.,Software Developer,Sussex,WI,NA,NA,SCSCMPNM
+A0000069,Derek,Beck,NA,NA,https://www.linkedin.com/in/derek-beck-43103b100/,SDCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,Human Head Studios,Game Programmer,Madison,WI,01/2018-Present,NA,NA
+A0000070,Justin,Choe,NA,NA,NA,COMPTRSCI,BA,None,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000071,Joshua,Day,NA,NA,https://www.linkedin.com/in/joshua-day-679906123/,SDCMPSCI,BS,Summa Cum Laude,2016-05-18,FALSE,,TRUE,"Diesel Forward, Inc.",Applied Mathematician,Windsor,WI,05/2017-Present,NA,NA
+A0000072,Jinelle,Gilfillan,NA,NA,https://www.linkedin.com/in/jinelle-gilfillan-b6a92380/,COMPTRSCI,BBA,Magna Cum Laude,2016-05-18,FALSE,,TRUE,Kerry,Supply Chain Analyst,Janesville,WI,06/2016-Present,NA,NA
+A0000073,Roxanne,Klassen,NA,NA,NA,COMPTRSCI,BA,None,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000074,Samuel,Kromm,NA,NA,https://www.linkedin.com/in/sam-kromm-072479aa/,COMPTRSCI,BS,None,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000075,Jon,Scott,NA,NA,https://www.linkedin.com/in/jon-scott-776232126/,COMPTRSCI,BS,None,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000076,Connor,Grady,NA,NA,https://www.linkedin.com/in/connorgrady/,LSBACMPSCI,BA,None,2016-05-18,FALSE,,TRUE,National General Insurance,Software Developer III,Milwaukee,WI,10/2017-Present,NA,NA
+A0000077,Christopher,Witt,NA,NA,https://www.linkedin.com/in/wittchristopher/,SFBACMPSCI,BA,None,2016-05-18,FALSE,,TRUE,TESCHGlobal,Solution Developer,Milwaukee,WI,06/2016-Present,NA,NA
+A0000078,Harrison,Amyotte,NA,NA,https://www.linkedin.com/in/harrison-amyotte-28b99990/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,U.S. Bank,Application Developer,Oshkosh,WI,08/2017-Present,NA,NA
+A0000079,Brock,Barber,NA,NA,,SFBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,State of Wisconsin,Mainframe Programmer,Madison,WI,2016-present,NA,NA
+A0000080,Alex,Breitensteein,NA,NA,https://www.linkedin.com/in/alex-breitenstein-4a771585/,LSBSCMPSCI,BS,Cum Laude,2016-05-18,FALSE,,TRUE,Northwestern Mutual,Associate Software Engineer,Milwaukee,WI,06/2016-Present,NA,NA
+A0000081,John,Daly,NA,NA,https://www.linkedin.com/in/john-daly-6a408b84/,LSBSCMPSCI,BS,Magna Cum Laude,2016-05-18,FALSE,,TRUE,MCIS (Marshfield Clinic Information Services),Programmer/Analyst,Marshfield,WI,09/2016-Present,NA,NA
+A0000082,Joseph,Hersh,NA,NA,https://www.linkedin.com/in/joseph-hersh-b9361b102/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,Lancaster Pollard,Database Analyst I,Columbus,OH,09/2016-Present,NA,NA
+A0000083,Joshua,Hoffmann,NA,NA,https://www.linkedin.com/in/joshua-hoffmann/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000084,Grant,Jones,NA,NA,https://www.linkedin.com/in/grant-jones-6247b1100/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,American Family Insurance,Cyber Security Analyst ,Madison,WI,02/2018-Present,NA,NA
+A0000085,Jeffrey,Rupp,NA,NA,https://www.linkedin.com/in/jeffrey-r-5b927a145/,LSBSCMPSCI,BS,Magna Cum Laude,2016-05-18,FALSE,,TRUE,Acuity Insurance,Information Security Engineer,Sheboygan,WI,11/2016-Present,NA,NA
+A0000086,Tyler,Schmidt,NA,NA,,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,Randstad Technologies US,IT Helpdesk Analyst,Kenosha,WI,04/2017-Present,NA,NA
+A0000087,Amanda,Starich,NA,NA,https://www.linkedin.com/in/amanda-starich-4b0840179/,LSBSCMPSCI,BS,Summa Cum Laude,2016-05-18,FALSE,,TRUE,Earthling InteractiveÂ ,Web developer,Madison,WI,2016-present,NA,NA
+A0000088,Amber,Thatcher,NA,NA,https://www.linkedin.com/in/amberthatcher/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,CliftonLarsonAllen,IT Training & Communication Analyst,Madison,WI,02/2018-Present,NA,NA
+A0000089,Tyler,Wilcock,NA,NA,https://www.linkedin.com/in/tyler-wilcock-528430a5/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,Widen Enterprises,Full Stack Software Developer,Madison,WI,06/2017-Present,NA,NA
+A0000090,Ericaceous,Wood,NA,NA,NA,LSBSCMPSCI,BS,Cum Laude,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000091,Alexander,Repsold,NA,NA,,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,Great Lake Loan services,Software Developer,Madison,WI,2016-present,NA,SCSCMPNM
+A0000092,Kyle,Amundson,NA,NA,,LSBSCMPSCI,BS,Summa Cum Laude,2016-05-18,FALSE,,TRUE,Great Lake Loan services,Software Developer,Madison,WI,2016-present,NA,SCSGENWM
+A0000093,Stephen,Coakley,NA,NA,https://www.linkedin.com/in/stephenmcoakley/,LSBSCMPSCI,BS,Summa Cum Laude,2016-05-18,FALSE,,TRUE,Widen Enterprises,Software Developer ,Madison,WI,05/2016-Present,NA,SCSGENWM
+A0000094,Douglas,Domeyer,NA,NA,https://www.linkedin.com/in/doug-domeyer-176766123/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000095,Andrew,Firkus,NA,NA,https://www.linkedin.com/in/andrew-firkus-16363891/,LSBSCMPSCI,BS,Magna Cum Laude,2016-05-18,FALSE,,TRUE,TIP Technologies,Software Developer,Waukesha,WI,05/2018-Present,NA,SCSGENWM
+A0000096,Tyler,Lindsay,NA,NA,https://www.linkedin.com/in/tyler-lindsay-26b2b912b/,LSBSCMPSCI,BS,None,2016-05-18,FALSE,,TRUE,Northwestern Mutual,Associate Engineer,Milwaukee,WI,06/2016-Present,NA,SCSGENWM
+A0000097,Aaron,Young,NA,NA,,LSBSCMPSCI,BS,None,2016-08-20,FALSE,,TRUE,Northwestern Mutual,Associate Engineer,Milwaukee,WI,06/2016-Present,NA,NA
+A0000098,Arek,Kashian,NA,NA,https://www.linkedin.com/in/arek-kashian-4b4aa2121/,LSBSCMPSCI,BS,None,2016-08-20,TRUE,Marquette University,FALSE,NA,Graduate student,Milwaukee,WI,2016-present,NA,SCSGENWM
+A0000099,Patrick,Schwabe,NA,NA,https://www.linkedin.com/in/patrick-schwabe-983ba5123/,LSBACMPSCI,BA,Cum Laude,2016-12-23,FALSE,,TRUE,AIDS Resource Center of Wisconsin,IT Support Specialist,Milwaukee,WI,02/2017-Present,NA,NA
+A0000100,Saad,Anjum,NA,NA,https://www.linkedin.com/in/saad-anjum-a4b31b104/,LSBSCMPSCI,BS,None,2016-12-23,FALSE,,TRUE,State of Wisconsin of department of Children and Families,Web Developer,Madison,WI,04/2017-Present,NA,NA
+A0000101,Jeremy,Bernien,NA,NA,https://www.linkedin.com/in/jeremy-bernien-7860792b/,LSBSCMPSCI,BS,None,2016-12-23,FALSE,,TRUE,American Family Insurance,Software Developer,Madison,WI,01/2017-Present,NA,NA
+A0000102,Alyssa,Cooke,NA,NA,https://www.linkedin.com/in/alyssa-cooke-86046532/,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,TRUE,"Ultratec, Inc.",Net Software Developer,Madison,WI,04/2017-Present,NA,NA
+A0000103,Matthew,Cooke,NA,NA,,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,TRUE,Textron INC,Software Engineer 1,Providence,RI,06/2017-Present,NA,NA
+A0000104,William,Gleeson,NA,NA,NA,LSBSCMPSCI,BS,Summa Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000105,Benjamin,Kerl,NA,NA,NA,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000106,Michael,Kislenko,NA,NA,https://www.linkedin.com/in/michael-kislenko-095a1579/,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,TRUE,"Visual Solutions, Inc.",Web Developer,Gurnee,IL,01/2017-Present,NA,NA
+A0000107,Jennifer,Kross,NA,NA,https://www.linkedin.com/in/jenny-kross-a80863115/,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000108,Hannah,Lehr,NA,NA,NA,LSBSCMPSCI,BS,Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000109,Nyia,Lor,NA,NA,https://www.linkedin.com/in/nyia-lor-199325a8/,LSBSCMPSCI,BS,None,2016-12-23,FALSE,,TRUE,RSM US LLP,Software Engineer,Minneapolis,MN,05/2018-Present,NA,NA
+A0000110,Steven,Smith,NA,NA,https://www.linkedin.com/in/steve-smith-23948b128/,LSBSCMPSCI,BS,Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000111,Matthew,Johnson,NA,NA,NA,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000112,Dalton,Labelle,NA,NA,NA,LSBSCMPSCI,BS,Magna Cum Laude,2016-12-23,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000113,Andrew,Sterger,NA,NA,https://www.linkedin.com/in/andrew-sterger-02431b12b/,SDCMPSCI,BS,None,2016-12-23,FALSE,,TRUE,Low Light Vapor,IT Manager,Whitewater,WI,12/2016-Present,NA,SDCSGEN
+A0000114,Constance,Dowden,NA,NA,NA,COMPTRSCI,BA,Summa Cum Laude,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000115,Daniel,Lollar,NA,NA,NA,COMPTRSCI,BS,Cum Laude,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000116,Tyler,Quarrato,NA,NA,https://www.linkedin.com/in/tyler-quarrato-46114185/,COMPTRSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000117,Joshua,Schedler,NA,NA,https://www.linkedin.com/in/josh-schedler/,COMPTRSCI,BA,None,2017-05-19,FALSE,,TRUE,Topcon Positioning Systems,IT Intern,Fort Atkinson,WI,07/2017-Present,NA,NA
+A0000118,Fenglin,XI,NA,NA,https://www.linkedin.com/in/fenglin-xi-53a23113a/,COMPTRSCI,BS,Magna Cum Laude,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000119,Michael,Fisher,NA,NA,NA,LSBACMPSCI,BA,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000120,Ryan,Schiferl,NA,NA,https://www.linkedin.com/in/ryanschiferl/,SFBACMPSCI,BA,None,2017-05-19,FALSE,,TRUE,OATI,Junior Software Developer,St. Paul,MN,12/2017-Present,NA,NA
+A0000121,Jacob,Bindl,NA,NA,https://www.linkedin.com/in/jacob-bindl-62ba84112/,LSBACMPSCI,BA,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,ACSGENWM
+A0000122,Adam,Brauns,NA,NA,https://www.linkedin.com/in/adam-brauns-mscs-0450b3126/,LSBSCMPSCI,BS,Cum Laude,2017-05-19,FALSE,,TRUE,Alliant Energy,Software Developer,Madison,WI,05/2017-Present,NA,NA
+A0000123,Scott,Butler,NA,NA,https://www.linkedin.com/in/scott-butler-209252115/,LSBSCMPSCI,BS,Magna Cum Laude,2017-05-19,FALSE,,TRUE,Northwestern Mutual,Associate Engineer,Milwaukee,WI,09/2017-Present,NA,NA
+A0000124,Joseph,Goril,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000125,Steven,Horvatin,NA,NA,https://www.linkedin.com/in/steven-horvatin-b319069a/,LSBSCMPSCI,BS,Magna Cum Laude,2017-05-19,FALSE,,TRUE,Gallup,System Application Developer,NA,NA,05/2017-09/2017,NA,NA
+A0000126,Sajid,Jaber,NA,NA,https://www.linkedin.com/in/sajidjaber/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,U.S. Cellular,IT Specialist / Wireless Sales Consultant,West Allis,WI,06/2011-Present,NA,NA
+A0000127,Drew,Kotowski,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000128,Brian,Maresso,NA,NA,NA,LSBSCMPSCI,BS,Cum Laude,2017-05-19,TRUE,University of Wisconsin - Whitewater,FALSE,NA,Graduate student,Whitewater,WI,NA,NA,NA
+A0000129,David,Merkel,NA,NA,https://www.linkedin.com/in/david-merkel-3b1ab7143/,LSBSCMPSCI,BS,Cum Laude,2017-05-19,FALSE,,NA,NA,NA,Whitewater,WI,NA,NA,NA
+A0000130,Lindsey,Oberg,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000131,David,Phelps,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000132,Grant,Pope,NA,NA,https://www.linkedin.com/in/grant-pope-it/,LSBSCMPSCI,BS,Magna Cum Laude,2017-05-19,FALSE,,TRUE,TDS Telecommunications LLC,Software Engineer II,Madison,WI,05/2018-Present,NA,NA
+A0000133,Sean,Rohde,NA,NA,https://www.linkedin.com/in/sean-rohde-4b7816149/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000134,Trevor,Sigmund,NA,NA,NA,LSBSCMPSCI,BS,Summa Cum Laude,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000135,Logan,Wegner,NA,NA,https://www.linkedin.com/in/logan-wegner/,LSBSCMPSCI,BS,Cum Laude,2017-05-19,FALSE,,TRUE,UnityPoint Health â€“ Meriter,Hardware Technician,Madison,WI,01/2018-Present,NA,NA
+A0000136,Aiman,Yousfan,NA,NA,https://www.linkedin.com/in/aimanyousfan/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,MBIIT LTD.,Lead IT Field Technician,Ontario,Canada,06/2017-Present,NA,NA
+A0000137,Alex,Bjerke,NA,NA,https://www.linkedin.com/in/alex-bjerke-6b725b131/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,"Digital Intent, LLC",Junior QA Developer,Rockford,IL,11/2017-Present,NA,SCSCMPNM
+A0000138,Carlos,Gonzaliez,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSCMPNM
+A0000139,Nicholas,Bolles,NA,NA,https://www.linkedin.com/in/nickbolles/,XDBSCMPSCI,BS,Cum Laude,2017-05-19,FALSE,,TRUE,Epic,Software Developer,Madison,WI,06/2017-Present,NA,XCSGENWM
+A0000140,Andrew,Bronas,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000141,Joseph,Buchwald,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000142,Daniel,Cancino,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000143,Timothy,Drays,NA,NA,https://www.linkedin.com/in/tim-drays-21745854/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,Apache Stainless Equipment Corporation,Information Technology Programmer/Developer,Beaver Dam,WI,04/2018-Present,NA,SCSGENWM
+A0000144,Everett,Frisch,NA,NA,https://www.linkedin.com/in/everett-frisch-ba6841106/,LSBSCMPSCI,BS,Magna Cum Laude,2017-05-19,FALSE,,TRUE,"Industries for the Blind, Inc.",Web Developer,Milwaukee,WI,07/2017-Present,NA,SCSGENWM
+A0000145,Christopher,Gifford,NA,NA,https://www.linkedin.com/in/giffordchris/,LSBSCMPSCI,BS,Cum Laude,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000146,Brandon,Hebel,NA,NA,https://www.linkedin.com/in/brandon-hebel-918a08163/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,Software Developer,Madison,WI,NA,NA,SCSGENWM
+A0000147,Evan,Knop,NA,NA,https://www.linkedin.com/in/evan-knop-a94531114/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,TDS,Software Engineer,Middleton,WI,05/2017-Present,NA,SCSGENWM
+A0000148,Ashley,Millar,NA,NA,https://www.linkedin.com/in/ashley-millar-006ba0107/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,Nautilus Insurance Company,Computer Support Specialist,Phoenix,AZ,01/2018-Present,NA,SCSGENWM
+A0000149,Danielle,Otto,NA,NA,https://www.linkedin.com/in/danielle-otto-372904b1/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,MGIC,Linux Administrator,Cudahy,WI,04/2017-Present,NA,SCSGENWM
+A0000150,Cody,Roth,NA,NA,NA,LSBSCMPSCI,BS,Magna Cum Laude,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000151,Mary,Scheuller,NA,NA,https://www.linkedin.com/in/marykatescheuller/,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,TRUE,Robert Half Technology,Technical Consultant,Madison,WI,06/2018-Present,NA,SCSGENWM
+A0000152,Lauren,Shirley,NA,NA,https://www.linkedin.com/in/lauren-shirley-2001ab129/,LSBSCMPSCI,BS,Summa Cum Laude,2017-05-19,FALSE,,TRUE,CUNA Mutual Group,IT Network Operations Intern,Madison,WI,05/2018-Present,NA,SCSGENWM
+A0000153,Benjamin,Yanke,NA,NA,NA,LSBSCMPSCI,BS,None,2017-05-19,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000154,Matthew,Allbee,NA,NA,https://www.linkedin.com/in/matthew-allbee-1b165379/,COMPTRSCI,BS,None,2017-08-19,FALSE,,TRUE,UW-Whitewater,Graduate Research Assistant,Whitewater,WI,09/2017-Present,NA,NA
+A0000155,Scott,Pegelow,NA,NA,NA,COMPTRSCI,BS,None,2017-08-19,FALSE,,NA,NA,Teacher,Milwaukee,WI,NA,NA,NA
+A0000156,Joshua,Leinberger,NA,NA,https://www.linkedin.com/in/josh-leinberger-01472b8b/,SFBSCMPSCI,BS,None,2017-08-19,FALSE,,TRUE,OnCourse Learning,Software Engineer I,Brookfield,WI,01/2018-Present,NA,SFCSCMPNM
+A0000157,Anthony,Schmitt,NA,NA,https://www.linkedin.com/in/anthony-schmitt-470840a4/,COMPTRSCI,BA,Magna Cum Laude,2017-12-22,FALSE,,TRUE,Wisconsin Innvoation Service Center,Market Researcher,Whitewater,WI,11/2014-Present,NA,NA
+A0000158,Joshua,Sullivan,NA,NA,https://www.linkedin.com/in/josh-sullivan-7a608411b/,COMPTRSCI,BBA,Summa Cum Laude,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000159,Ryan,Albert,NA,NA,https://www.linkedin.com/in/ryan-albert-77b97a148/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000160,Malkolm,Davis,NA,NA,https://www.linkedin.com/in/malkolm-davis-870112a7/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,Spacer Fabricator,"SPX Transformer Solutions, Inc.",Waukesha,WI,01/2018-Present,NA,NA
+A0000161,Haki,Dehari,NA,NA,https://www.linkedin.com/in/haki-dehari-96b405142/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,University of Wisconsin - Whitewater,Software Developer,Whitewater,WI,10/2017-03/2018,NA,NA
+A0000162,Owen,Kirkeby,NA,NA,NA,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,Blackthorne Capital Management LLC,Software Developer,Whitewater,WI,NA,NA,NA
+A0000163,Michah,Kolar,NA,NA,,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,"Guhring, Inc.",Front-End Developer,Brookfield,WI,06/2018-Present,NA,NA
+A0000164,Cory,Sempf,NA,NA,https://www.linkedin.com/in/cory-sempf-783379147/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000165,Obren,Sigan,NA,NA,NA,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000166,Jaiden,Trinh,NA,NA,https://www.linkedin.com/in/jaiden-trinh-2a40a8b6/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,HUSCO International,Final Operations Assembler,Whitewater,WI,01/2018-Present,NA,NA
+A0000167,David,Dowling,NA,NA,NA,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSCMPNM
+A0000168,Gregory,Hyde,NA,NA,https://www.linkedin.com/in/gregory-hyde-8142b116a/,LSBSCMPSCI,BS,None,2017-12-22,TRUE,University of Wisconsin - Whitewater,FALSE,NA,Graduate student,Whitewater,WI,NA,NA,SCSCMPNM
+A0000169,Michael,Kirmse,NA,NA,https://www.linkedin.com/in/michael-k-a59024154/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,Generac Power Systems,Software Test Automation Analyst,Waukesha,WI,12/2017-Present,NA,SCSCMPNM
+A0000170,Navdeep,Bamrah,NA,NA,https://www.linkedin.com/in/navdeep-bamrah-7118a3134/,LSBSCMPSCI,BS,Magna Cum Laude,2017-12-22,FALSE,,TRUE,American Family Insurance,Automation Associate Engineer,Madison,WI,01/2018-Present,NA,SCSGENWM
+A0000171,Ramnjit,Boparai,NA,NA,NA,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000172,Joseph,Komlodi,NA,NA,NA,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000173,Marson,Michalsky,NA,NA,NA,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000174,Austin,Mielke,NA,NA,https://www.linkedin.com/in/austinmielke/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,Northwestern Mutual,Associate Engineer,Milwaukee,WI,12/2017-Present,NA,SCSGENWM
+A0000175,Katelyn,Oxley,NA,NA,https://www.linkedin.com/in/katelyn-oxley-08906312b/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,TRUE,LeMans Corporation,Digital Content Specialist,Janesville,WI,01/2018-Present,NA,SCSGENWM
+A0000176,Kyle,Tan,NA,NA,https://www.linkedin.com/in/kyle-tan-0b2b4814a/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000177,Taylor,Woelfel,NA,NA,https://www.linkedin.com/in/taylor-woelfel-308b35139/,LSBSCMPSCI,BS,None,2017-12-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000178,Noah,Davisson,NA,NA,NA,COMPTRSCI,BS,None,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000179,Jeremy,Freeman,NA,NA,NA,COMPTRSCI,BS,None,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000180,Andrew,Heiman,NA,NA,NA,COMPTRSCI,BS,Cum Laude,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000181,Maxwell,Mccarthy,NA,NA,NA,COMPTRSCI,BS,None,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,NA
+A0000182,Zachary,Mccormick,NA,NA,https://www.linkedin.com/in/zachary-mccormick-9843aaaa/,COMPTRSCI,BS,None,2018-05-22,FALSE,,TRUE,www.zacharymccormick.com,Game Designer,Milwaukee,WI,NA,NA,NA
+A0000183,Quinn,Pepper,NA,NA,https://www.linkedin.com/in/quinn-pepper-335b3213b/,COMPTRSCI,BA,None,2018-05-22,FALSE,,TRUE,A'viands,Student Manager,Whitewater,WI,05/2017-Present,NA,NA
+A0000184,Daniel,Pratt,NA,NA,https://www.linkedin.com/in/prattdanny/,COMPTRSCI,BS,None,2018-05-22,FALSE,,TRUE,Mitchell Custom Lawns,Lawn Care Specialist,Janesville,WI,06/2017-Present,NA,NA
+A0000185,Joshua,Andrade,NA,NA,https://www.linkedin.com/in/joshua-andrade-036072135/,LSBSCMPSCI,BS,Cum Laude,2018-05-22,FALSE,,TRUE,Wonderware Midwest,Technical Support Engineer,Brookfield,WI,05/2018-Present,NA,NA
+A0000186,Rachael,Boneck,NA,NA,https://www.linkedin.com/in/rachael-boneck-b203b251/,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,TRUE,TDS Telecommunications LLC,Data Analyst Intern,Madison,WI,01/2018-Present,NA,NA
+A0000187,Heath,Eisen,NA,NA,https://www.linkedin.com/in/heath-eisen-297b6199/,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,TRUE,TEKsystems,IT Asset & Desktop Support Technician,Monona,WI,05/2018-Present,NA,NA
+A0000188,Kevin,Hill,NA,NA,https://www.linkedin.com/in/kevin-a-hill/,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,TRUE,University of Wisconsin-Whitewater,Front-End Web Developer,Whitewater,WI,02/2018-Present,NA,NA
+A0000189,Charles,Housh,NA,NA,https://www.linkedin.com/in/charles-housh-70926113b/,LSBSCMPSCI,BS,Summa Cum Laude,2018-05-22,FALSE,,TRUE,JDA Software,Software Engineer,Waukesha,WI,05/2018-Present,NA,NA
+A0000190,David,Joerres,NA,NA,https://www.linkedin.com/in/davidjoerres0425/,LSBSCMPSCI,BS,Magna Cum Laude,2018-05-22,FALSE,,TRUE,UW-Whitewater University Housing,Web Developer,Whitewater,WI,02/2016-Present,NA,NA
+A0000191,Mario,Alvarez,NA,NA,https://www.linkedin.com/in/mario-alvarez-b29182163/,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSCMPNM
+A0000192,Zachary,Koch,NA,NA,https://www.linkedin.com/in/zachary-koch/,LSBSCMPSCI,BS,Magna Cum Laude,2018-05-22,FALSE,,TRUE,Northwestern Mutual,Associate Software EngineerÂ ,Franklin,WI,05/2018-Present,NA,SCSCMPNM
+A0000193,Lydia,Kutti,NA,NA,NA,LSBSCMPSCI,BS,Summa Cum Laude,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSCMPNM
+A0000194,Telvin,Beeman,NA,NA,https://www.linkedin.com/in/telvin-beeman-b87b4114a/,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,TRUE,UW-Whitewater Housing,Facilities Assistant,Whitewater,WI,11/2015-Present,NA,SCSGENWM
+A0000195,Nicholas,Bentzen,NA,NA,https://www.linkedin.com/in/nicholas-bentzen/,LSBSCMPSCI,BS,Magna Cum Laude,2018-05-22,FALSE,,TRUE,"Data Specialists, Inc",Software Developer Intern,Elkhorn,WI,06/2018-Present,NA,SCSGENWM
+A0000196,Peter,Biatante,NA,NA,NA,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000197,Nicholas,Collins,NA,NA,https://www.linkedin.com/in/nicholas-collins-3bb405151/,LSBSCMPSCI,BS,None,2018-05-22,FALSE,,TRUE,Northwestern Mutual,Associate Engineer,Franklin,WI,05/2018-Present,NA,SCSGENWM
+A0000198,Elijah,Kramer,NA,NA,https://www.linkedin.com/in/elijah-kramer/,XDBSCMPSCI,BS,Summa Cum Laude,2018-05-22,FALSE,,TRUE,Employed',NA,Denver,CO,NA,NA,XCSGENWM
+A0000199,Jesse,Lynch,NA,NA,NA,LSBSCMPSCI,BS,Summa Cum Laude,2018-05-22,TRUE,University of Wisconsin - Whitewater,FALSE,NA,Graduate student,Whitewater,WI,NA,NA,SCSGENWM
+A0000200,Samuel,Matucheski,NA,NA,NA,LSBSCMPSCI,BS,Cum Laude,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SCSGENWM
+A0000201,Christian,Heide,NA,NA,https://www.linkedin.com/in/christian-heide-8b6183168/,SDCMPSCI,BA,None,2018-05-22,FALSE,,NA,NA,NA,NA,NA,NA,NA,SDCSGEN
+A0000202,Samantha,Bell,samanthabell028@gmail.com,608-302-8276,https://www.linkedin.com/in/samantha-bell-computer-science/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Caterpillar,Junior Software Developer,Mossville,IL,NA,73000,NA
+A0000203,Luke,De Guelle,lukedeguelle95@gmail.com,920-428-2189,https://www.linkedin.com/in/luke-de-guelle-26967b12a/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Fis Global,Software Engineer,Milwaukee,WI,NA,62000,NA
+A0000204,Manuel,Delgado Jr.,jrdelgado3@yahoo.com,608-322-7409,NA,NA,NA,NA,2018-12-15,FALSE,,TRUE,Data Dimension,Help Desk Analyst,Janesville,WI,NA,NA,NA
+A0000205,Brandon,Eto,eto.brandon@gmail.com,414-581-4962,https://www.linkedin.com/in/brandon-eto/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000206,Ryan,Flaherty,ryan.flaherty.71@gmail.com,262-224-9736,https://www.linkedin.com/in/ryan-flaherty-336a42179/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Google,Software Engineer,Madison,WI,NA,102000,NA
+A0000207,Jorgen,Fox,fox2425@gmail.com,608-370-2702,https://www.linkedin.com/in/jorgen-fox-267036134/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Blain's Supply,Help Desk,Janesville,WI,NA,40000,NA
+A0000208,Alexander,Garcia,agarcia53066@gmail.com,262-719-5987,https://www.linkedin.com/in/alexander-garcia-749488160/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000209,Emily,Garczynski,emilykikima@gmail.com,262-347-7273,https://www.linkedin.com/in/emily-garczynski-5b4327123/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Nippon Shokken,Sales Consultant,Sacramento,CA,NA,NA,NA
+A0000210,Ross,Knudtson,ross.knudtson@gmail.com,608-469-7293,https://www.linkedin.com/in/ross-knudtson-89503317b/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000211,Seth,Lambert,seth.j.lambert@gmail.com,608-751-1018,https://www.linkedin.com/in/seth-lambert/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000212,Ian,Marks,ianmarks96@gmail.com,414-507-2648,https://www.linkedin.com/in/ian-marks/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000213,Mitch,Narish,mitchell.narish@gmail.com,608-421-8645,https://www.linkedin.com/in/mitchell-narish-157994136/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000214,Paul,Rodgers,rodgerspu18@uww.edu,262-353-8282,NA,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000215,Ben,Silbaugh,NA,NA,https://www.linkedin.com/in/benjamin-silbaugh-a83b16170/,NA,NA,NA,2018-12-15,FALSE,,TRUE,NA,NA,Middleton,WI,NA,NA,NA
+A0000216,Tyler,Thompson,tyler@tylerthompson.me,608-295-6802,https://www.linkedin.com/in/tylerjamesthompson/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Northwestern Mutual,Senior Software Architect in Test,Milwaukee,WI,NA,100000,NA
+A0000217,Ryan,Walker,ryanmwalker@outlook.com,608-332-9143,https://www.linkedin.com/in/ryanmwalker18/,NA,NA,NA,2018-12-15,TRUE,University of Nevada - Las Vegas,FALSE,NA,Graduate student,NA,NA,NA,NA,NA
+A0000218,Kelsey,Wojczak,kwojczak@gmail.com,608-224-8424,https://www.linkedin.com/in/kelsey-wojczak-970536157/,NA,NA,NA,2018-12-15,FALSE,,TRUE,Singlewire Software,QA Analyst,Madison,WI,NA,62000,NA
+A0000219,Yesaswini Susrita,Yaslagadda,yyesaswini@gmail.com,262-721-7564,https://www.linkedin.com/in/yesaswini-yarlagadda/,NA,NA,NA,2018-12-15,FALSE,,FALSE,NA,NA,NA,NA,NA,NA,NA
+A0000220,Patrick,Abrahams, NA, NA,https://www.linkedin.com/in/patrick-t-abrahams/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000221,Samuel,Amundson, NA, NA,https://www.linkedin.com/in/sam-amundson-1a306a178/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000222,Skyler,Baumstock,skymaster306@att.net,262-221-2472,NA,NA,NA,NA,2019-05-19,FALSE,,FALSE,,NA,NA,NA,NA,NA,NA
+A0000223,Matthew,Bennett, NA, NA,https://www.linkedin.com/in/matthew-bennett-652697172/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000224,Matthew,Bosse, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000225,David ,Buchheit,davidrbuchheit@gmail.com,262-949-7266,https://www.linkedin.com/in/david-buchheit-b46959160/,NA,NA,NA,2019-05-19,TRUE,University of Wisconsin - Whitewater,NA,,NA,NA,NA,NA,NA,NA
+A0000226,Zachary,Clark,zd4clark@gmail.com,847-691-6021,NA,NA,NA,NA,2019-05-19,FALSE,,FALSE,,NA,NA,NA,NA,NA,NA
+A0000227,Jaycee,Cleveland, NA, NA,https://www.linkedin.com/in/jayceecleveland/,NA,NA,NA,2019-05-19,FALSE,,NA,Westbend Mutual,NA,NA,NA,NA,NA,NA
+A0000228,Christian,Cooper,coopercco1@outlook.com,262-348-6931,NA,NA,NA,NA,2019-05-19,FALSE,,FALSE,,NA,NA,NA,NA,NA,NA
+A0000229,Carl,Erdmann,erdman_carl@hotmail.com,920-650-6713,NA,NA,NA,NA,2019-05-19,FALSE,,TRUE,Ibuttonlink LLC,Junior Programmer,Whitewater,WI,NA,49900,NA
+A0000230,Benjamin,Everett, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000231,Aleicia,Gannon, NA, NA,https://www.linkedin.com/in/aleicia-gannon/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000232,Brittany,Grulkowski, NA, NA,https://www.linkedin.com/in/brittany-grulkowski-163a4b184/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000233,Alexander,Hoffmann,hoffmanna111@gmail.com,262-623-4975,NA,NA,NA,NA,2019-05-19,TRUE,University of Wisconsin - Whitewater,FALSE,,NA,NA,NA,NA,NA,NA
+A0000234,Justin,Holter, NA, NA,https://www.linkedin.com/in/justin-holter/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000235,David,Howell,dhowell213544@outlook.com,608-931-5916,NA,NA,NA,NA,2019-05-19,FALSE,,TRUE,CUNA Mutual Group,IT Specialist II,Madison,WI,NA,60000,NA
+A0000236,Matthew,Janczak,mjhawk28@yahoo.com,630-947-6841,NA,NA,NA,NA,2019-05-19,FALSE,,FALSE,,NA,NA,NA,NA,NA,NA
+A0000237,Erik,Jensen, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000238,David,Johnson,biggoron1.dj@gmail.com,630-520-5048,NA,NA,NA,NA,2019-05-19,FALSE,,FALSE,,NA,NA,NA,NA,NA,NA
+A0000239,Jacob,Klein, NA, NA,NA,NA,NA,NA,2019-05-19,TRUE,University of Wisconsin - Whitewater,NA,,NA,NA,NA,NA,NA,NA
+A0000240,Joshua,Kraemer, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000241,Jiahe,Lin, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000242,Keith,Malueg, NA, NA,https://www.linkedin.com/in/keithmalueg/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000243,Ian,McVey, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000244,Phoebe,Miller, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000245,Bailey,Moberly,baileyrmoberly@gmail.com,630-487-7482,https://www.linkedin.com/in/baileyrmoberly/,NA,NA,NA,2019-05-19,FALSE,,TRUE,The Options Clearing Corporation,QA Automation Engineer,Chicago,IL,NA,75000,NA
+A0000246,Kayin,Moore, NA, NA,https://www.linkedin.com/in/kayin-moore-83bb2414a/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000247,Gage,O'Laughlin, NA, NA,https://www.linkedin.com/in/gageolaughlin/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000248,Justin,Poetzel,justinpoetzel@yahoo.com,920-960-0128,NA,NA,NA,NA,2019-05-19,FALSE,,FALSE,,NA,NA,NA,NA,NA,NA
+A0000249,Christopher,Porth, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000250,Jake,Seiden, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000251,Joshua,Stefan, NA, NA,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000252,Tyler,Surma,tylersurma@yahoo.com,262-309-2775,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000253,Jordan,Talarek,jktalarek@yahoo.com,630-842-0417,NA,NA,NA,NA,2019-05-19,FALSE,,TRUE,Isotropic,Software Developer,Lake Geneva,WI,NA,NA,NA
+A0000254,Patrice,Timchia, NA, NA,https://www.linkedin.com/in/patrice-timchia-ab820868/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000255,Jordane,Waichunas, NA, NA,https://www.linkedin.com/in/jordane-waichunas-491a42177/,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000256,Elias,Wambura,giabe8765@gmail.com,262-751-6873,NA,NA,NA,NA,2019-05-19,FALSE,,NA,,NA,NA,NA,NA,NA,NA
+A0000257,Mitchell,Zajac, NA, NA,https://www.linkedin.com/in/mitchell-zajac-a19bb4181/,NA,NA,NA,2019-05-19,FALSE,,TRUE,PDS,Assoicate IAM Software Developer,NA,NA,NA,NA,NA
