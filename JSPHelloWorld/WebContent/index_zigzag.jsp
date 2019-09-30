@@ -15,20 +15,17 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
     <script src="https://cdn.rawgit.com/jasondavies/d3-cloud/v1.2.1/build/d3.layout.cloud.js"></script>
 <style>
-<%
-       		 //Returns an ArrayList of Strings(Employment rates, rate of continuing edu. and seeking rates), 
-       		 //ex) "Employed,94.1","Continuing Education,3.2","Seeking,3.7"
+
+	<%
+       		//Returns an ArrayList of Strings(Employment rates, rate of continuing edu. and seeking rates), 
+       		//ex) "Employed,94.1","Continuing Education,3.2","Seeking,3.7"
 			
 			main newMain2 = new main();
 			newMain2.Connection();
 			ArrayList<String> careerOutcomes = newMain2.getCareerOutcomes(); 																	
-			
-			//for(int i=0;i<careerOutcomes.size();i++){
-				//out.print(careerOutcomes.get(i));
-			//}
-			
 		   
-       	%>
+	%>
+	
 <%-- --------------------------------- Header -------------------------------------------------- --%>
 .header {
   overflow: hidden;
@@ -51,7 +48,7 @@
 
 .header a.logo {
 /*
- background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("willy.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("willy.png");
   height: 20%;
   width: 20%;
   
@@ -60,10 +57,10 @@
   
   position: relative;
 */
- background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("willy2.png");
- background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("willy2.png");
+  background-position: center;
   background-repeat: no-repeat;
-   height: 10%;
+  height: 10%;
   width: 10%;
 }
 
@@ -120,7 +117,7 @@ body {
 .container2 {
   padding: 0px;
   background-color: #393939;
-  height:80%;/*get rid of if google maps doesnt work, was 70%*/
+  height:80%;
 }
 
 .row:after {
@@ -136,7 +133,7 @@ body {
 
 .row2 {
  background-color: #393939;
- height:100%;/*get rid of if google maps doesnt work*/
+ height:100%;
 }
 
 .left-half {
@@ -315,17 +312,8 @@ html, body {
 <%--HEADER SECTION --%> 
   	<div class="header">
   		<center>
-  			<img src="willy2.png">
+  			<img src="${pageContext.request.contextPath}/Images/willy2.png" />
   		</center>
-  		<!--  
-  		<div class="header-right">
-  			
-    	<a class="active" href="index_zigzag.jsp">Home</a>
-    	<a href="alumni.jsp">Alumni</a>
-    	<a href="employers.jsp">Employers</a>
-    	<a href="antology.jsp">Ontology</a>
-    	<a href="wordcloud.jsp">Word Cloud</a> 
-  		</div>-->
 	</div>
 
 <div class="subHeader">

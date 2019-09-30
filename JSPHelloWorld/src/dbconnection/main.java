@@ -157,7 +157,7 @@ public class main extends HttpServlet {
 			state = rs.getString(4);
 			concatData = numGraduates+","+employerName+","+city+","+state;
 			theData.add(concatData);
-			System.out.println(theData.get(count++));
+			//System.out.println(theData.get(count++));
 		}
 		return theData;
 	}
@@ -180,7 +180,7 @@ public class main extends HttpServlet {
 			state = rs.getString(2);
 			concatData = city+","+state;
 			theData.add(concatData);
-			System.out.println(theData.get(count++));
+			//System.out.println(theData.get(count++));
 		}
 		return theData;
 	}
@@ -207,7 +207,7 @@ public class main extends HttpServlet {
 			state = rs.getString(4);
 			concatData = numGraduates+","+schoolName+","+city+","+state;
 			theData.add(concatData);
-			System.out.println(theData.get(count++));
+			//System.out.println(theData.get(count++));
 		}
 		return theData;
 	}
@@ -230,7 +230,7 @@ public class main extends HttpServlet {
 			state = rs.getString(2);
 			concatData = city+","+state;
 			theData.add(concatData);
-			System.out.println("GRAD SCHOOLS: "+theData.get(count++));
+			//System.out.println("GRAD SCHOOLS: "+theData.get(count++));
 		}
 		return theData;
 	}
@@ -284,7 +284,7 @@ public class main extends HttpServlet {
 			position = rs.getString(2);
 			concatData = frequency+","+position;
 			theData.add(concatData);
-			System.out.println(theData.get(count++));
+			//System.out.println(theData.get(count++));
 		}
 		return theData;
 	}
@@ -300,7 +300,7 @@ public class main extends HttpServlet {
 		
 		while(rs.next()) {
 			salary += rs.getInt(1);
-			System.out.println("Added Salary: "+salary);
+			//System.out.println("Added Salary: "+salary);
 			count++;
 		}
 		averageSalary = salary/count;
@@ -333,7 +333,7 @@ public class main extends HttpServlet {
 		    String str2 = theSplit[1];
 	    	
 	    	sb.append("{ text: '").append(str2).append("', size: ").append("(").append(str1).append("+10)*2}");
-	    	System.out.println("My SB: "+sb.toString());
+	    	//System.out.println("My SB: "+sb.toString());
 	        if(i+1 < arr.size()){
 	            sb.append(",");
 	        }
@@ -361,7 +361,7 @@ public class main extends HttpServlet {
 	    
 	    
 	    
-	    System.out.println(sb.toString());
+	    //System.out.println(sb.toString());
 	    return sb.toString();
 	    
 	}
@@ -389,7 +389,7 @@ public class main extends HttpServlet {
 			state = rs.getString(4);
 			concatData = numGraduates+","+employerName+","+city+","+state;
 			theData.add(concatData);
-			System.out.println(theData.get(count++));
+			//System.out.println(theData.get(count++));
 		}
 		
 		return theData;
@@ -595,14 +595,14 @@ public class main extends HttpServlet {
 		String city;
 		String state;
 		
-		System.out.println("#Graduates\tEmployerName\tCity\tState");
+		//System.out.println("#Graduates\tEmployerName\tCity\tState");
 		while(rs.next()) {
 			numGraduates = rs.getInt(1);
 			employerName = rs.getString(2);
 			city = rs.getString(3);
 			state = rs.getString(4);
 			
-			System.out.println(numGraduates+"\t"+employerName+"\t"+city+"\t"+state);
+			//System.out.println(numGraduates+"\t"+employerName+"\t"+city+"\t"+state);
 		}
 		
 		return rs;
@@ -618,12 +618,12 @@ public class main extends HttpServlet {
 		String employerName;
 		int graduatesHired;
 		
-		System.out.println("EmployerName\t#GraduatesHired");
+		//System.out.println("EmployerName\t#GraduatesHired");
 		while(rs.next()) {
 			employerName = rs.getString(1);
 			graduatesHired = rs.getInt(2);
 			
-			System.out.println(employerName+"\t"+graduatesHired);
+			//System.out.println(employerName+"\t"+graduatesHired);
 		}
 		
 		return rs;
@@ -640,14 +640,14 @@ public class main extends HttpServlet {
 		String city;
 		String state;
 		
-		System.out.println("#Graduates\tEmployerName\tCity\tState");
+		//System.out.println("#Graduates\tEmployerName\tCity\tState");
 		while(rs.next()) {
 			numGraduates = rs.getInt(1);
 			employerName = rs.getString(2);
 			city = rs.getString(3);
 			state = rs.getString(4);
 			
-			System.out.println(numGraduates+"\t"+employerName+"\t"+city+"\t"+state);
+			//System.out.println(numGraduates+"\t"+employerName+"\t"+city+"\t"+state);
 		}
 		
 		return rs;
@@ -692,7 +692,7 @@ public class main extends HttpServlet {
 		String city;
 		String state;
 		
-		System.out.println("Name\tPosition\tEmployerName\tCity\tState");
+		//System.out.println("Name\tPosition\tEmployerName\tCity\tState");
 		while(rs.next()) {
 			name = rs.getString(1);
 			position = rs.getString(2);
@@ -700,7 +700,7 @@ public class main extends HttpServlet {
 			city = rs.getString(4);
 			state = rs.getString(5);
 			
-			System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state);
+			//System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state);
 		}
 		
 		return rs;
@@ -718,7 +718,7 @@ public class main extends HttpServlet {
 		String city;
 		String state;
 		
-		System.out.println("Name\tPosition\tEmployerName\tCity\tState");
+		//System.out.println("Name\tPosition\tEmployerName\tCity\tState");
 		while(rs.next()) {
 			name = rs.getString(1);
 			position = rs.getString(2);
@@ -726,7 +726,7 @@ public class main extends HttpServlet {
 			city = rs.getString(4);
 			state = rs.getString(5);
 			
-			System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state);
+			//System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state);
 		}
 		
 		return rs;
@@ -751,14 +751,14 @@ public class main extends HttpServlet {
 		String DegrConfDate;
 		String honors;
 		
-		System.out.println("Name\tType\tDegrConfDate\tHonors");
+		//System.out.println("Name\tType\tDegrConfDate\tHonors");
 		while(rs.next()) {
 			name = rs.getString(1);
 			type = rs.getString(2);
 			DegrConfDate = rs.getString(3);
 			honors = rs.getString(4);
 			
-			System.out.println(name+"\t"+type+"\t"+DegrConfDate+"\t"+honors);
+			//System.out.println(name+"\t"+type+"\t"+DegrConfDate+"\t"+honors);
 		}
 		
 		return rs;
@@ -772,12 +772,12 @@ public class main extends HttpServlet {
 		String name;
 		String honors;
 		
-		System.out.println("Name\tHonors");
+		//System.out.println("Name\tHonors");
 		while(rs.next()) {
 			name = rs.getString(1);
 			honors = rs.getString(2);
 			
-			System.out.println(name+"\t"+honors);
+			//System.out.println(name+"\t"+honors);
 		}
 		
 		return rs;
@@ -815,7 +815,7 @@ public class main extends HttpServlet {
 		String startYear;
 		String endYear;
 		
-		System.out.println("Name\tPosition\tEmployerName\tCity\tState\tStartYear\tEndYear");
+		//System.out.println("Name\tPosition\tEmployerName\tCity\tState\tStartYear\tEndYear");
 		while(rs.next()) {
 			name = rs.getString(1);
 			position = rs.getString(2);
@@ -825,7 +825,7 @@ public class main extends HttpServlet {
 			startYear = rs.getString(6);
 			endYear = rs.getString(6);
 			
-			System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state+"\t"+startYear+"\t"+endYear);
+			//System.out.println(name+"\t"+position+"\t"+employerName+"\t"+city+"\t"+state+"\t"+startYear+"\t"+endYear);
 		}
 		
 		return rs;
@@ -841,14 +841,14 @@ public class main extends HttpServlet {
 		String employerName;
 		String honors;
 		
-		System.out.println("Name\tPosition\tEmployerName\tHonors");
+		//System.out.println("Name\tPosition\tEmployerName\tHonors");
 		while(rs.next()) {
 			name = rs.getString(1);
 			position = rs.getString(2);
 			employerName = rs.getString(3);
 			honors = rs.getString(4);
 			
-			System.out.println(name+"\t"+position+"\t"+employerName+"\t"+honors);
+			//System.out.println(name+"\t"+position+"\t"+employerName+"\t"+honors);
 		}
 		
 		return rs;
