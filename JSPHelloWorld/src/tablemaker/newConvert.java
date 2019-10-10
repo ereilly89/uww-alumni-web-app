@@ -16,7 +16,7 @@ public class newConvert {
 	public static void main(String[] args) throws Exception {
 		
 		//INPUT FILE
-		File AlumniDatabaseCSV = new File("AlumniSpreadsheet.csv");
+		File AlumniDatabaseCSV = new File("AlumniSpreadsheet - Copy.csv");
 		Scanner AlumniCSV = new Scanner(AlumniDatabaseCSV);
 		
 		//OUTPUT FILES
