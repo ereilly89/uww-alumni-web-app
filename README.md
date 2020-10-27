@@ -1,4 +1,4 @@
-# JSPwithDatabase
+# UWW ALUMNI DATABASE APPLICATION
 
 This app was built with JSP (Java Server Pages) using Apache Tomcat v9.0 with MySQL database.
 This was a team effort with help from Anthony Meyer, Casey Thimm, and Tanner Lory. 
